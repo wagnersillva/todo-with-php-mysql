@@ -1,0 +1,39 @@
+.content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > .table-index {
+    max-width: 80%;
+}
+
+.content > .div-inputs {
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.content > .div-inputs > form > .input-tarefa{
+    width: 73%;
+    margin: 0;
+}
+.content > .div-inputs > form > .input-submit{
+    width: 25%;
+    min-width: 150px;
+    margin: 0;
+}
+
+.btn-logout {
+    margin-left: 80vw;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.concluido {
+    color: #2dc749;
+}
+.disable {
+    color: #1c1e1c;
+}
